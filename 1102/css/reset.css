@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: "Microsoft Jkenghei";
+}
+
+html,body,h1,h2,h3,h4,h5,h6,p,ol,li,ul,img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+ul,ol,li {
+   list-style: none; 
+}
+.btn {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 0;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 25px;
+    
+    transition: all .3s;
+}
+.btn:hover {
+    background-color: rgb(87, 87, 87);
+    color: black;
+}

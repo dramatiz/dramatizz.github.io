@@ -1,0 +1,55 @@
+nav {
+    /* height: 60px; */
+    background-color: rgb(56, 56, 56);
+    overflow: auto;
+    padding: 10px 0;
+}
+nav .logo {
+    float: left;
+}
+nav .menu {
+    float: right;
+}
+nav .menu li {
+    float: left;
+}
+nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 15px;
+    transition: all .3s;
+}
+nav .menu a:hover {
+    background-color: rgb(121, 121, 121);
+    color: #444444;
+}
+header {
+    padding-top: 300px;
+    background-image: url(https://source.unsplash.com/radom/1600x600);;
+    padding-bottom: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+header h2 {
+    font-size: 72px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+header p {
+    margin-bottom: 15px;
+}
+#about {
+    padding: 150px 0;
+    background-color: rgb(255, 245, 189);
+    text-align: center;
+}
+#about h2 {
+    margin-bottom: 15px;
+}
+#about p {
+    line-height: 1.6em;
+}
